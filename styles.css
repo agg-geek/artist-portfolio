@@ -49,9 +49,6 @@ a.active {
 .card img {
 	width: 100%;
 	height: 400px;
-
-	/* shrink the window and see what happens to the image on shrinking
-       compare the image without and with object-fit */
 	object-fit: cover;
 }
 
@@ -62,4 +59,32 @@ a.active {
 .card h2 {
 	font-weight: 300;
 	margin: 8px 0 16px 0;
+}
+
+.about {
+	width: 40%;
+	min-width: 300px;
+	margin: 100px 0 80px 200px;
+}
+
+.about h3 {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+/* cta: call to action */
+.cta {
+	margin: 0;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	padding-bottom: 8px;
+}
+
+.contact {
+	margin-top: 80px;
+}
+
+.contact p {
+	font-size: 25px;
+	margin: 0;
 }
