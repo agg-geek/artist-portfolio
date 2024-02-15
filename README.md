@@ -1,2 +1,1 @@
-# artist-portfolio
-Artist Portfolio
+# Artist-portfolio
