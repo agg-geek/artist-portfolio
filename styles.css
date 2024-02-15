@@ -34,3 +34,31 @@ h1 {
 a.active {
 	border-bottom: 1px solid black;
 }
+
+.gallery {
+	padding: 16px;
+}
+
+.card {
+	/* since display is inline-block, the whitespace between the elements will be respected 
+       hence we will use a width slightly less than 50%*/
+	width: 49.75%;
+	display: inline-block;
+
+	/* to add the space around the card, we could've used margin
+       but then things break because margin is added in addition to the width
+       hence just use border-box and add padding instead of margin */
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.card img {
+	/* img will occupy 100% of its container (.card), and card has a ~50% width */
+	width: 100%;
+	height: 400px;
+}
+
+.card h2 {
+	font-weight: 300;
+	margin: 8px 0 16px 0;
+}
